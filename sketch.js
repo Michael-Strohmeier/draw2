@@ -1,4 +1,4 @@
-let kanjiTable = [['私(わたし)', 'I'], ['日(に)本(ほん)人(じん)', 'Japanese person'], ['日(に)本(ほん)人(ご)', 'Japanese Language'], ['本(ほん)人(にん)', 'the person in question; the person themselves'], ['です', 'be; is\u200b'], ['今(きょう)日', 'today; this day'], ['一(いち)', 'one'], ['国(くに)', 'country; state'], ['国(くに)語(ご)', 'national language'], ['会(かい)見(けん)', 'interview; audience; meeting; (viewing) party'], ['三(さん)人(にん)', 'three people'], ['二(ふた)人(り)', 'two persons; two people; pair; couple'], ['一(ひと)人(り)', 'one person'], ['今(こ)年(とし)', 'this year'], ['一(いち)年(ねん)', 'one year; some time ago'], ['大(おと)人(な)', 'adult'], ['大(おお)きい', 'big; large; great'], ['十(じゅう)', 'ten'], ['十(とお)日(か)', 'tenth day of the month'], ['十(じゅう)一(いち)', 'eleven; 11']];
+let kanjiTable = [['私(わたし)', 'I'], ['日(に)本(ほん)人(じん)', 'Japanese person'], ['日(に)本(ほん)語(ご)', 'Japanese Language'], ['本(ほん)人(にん)', 'the person in question; the person themselves'], ['です', 'be; is\u200b'], ['今(きょう)日', 'today; this day'], ['一(いち)', 'one'], ['国(くに)', 'country; state'], ['国(くに)語(ご)', 'national language'], ['会(かい)見(けん)', 'interview; audience; meeting; (viewing) party'], ['三(さん)人(にん)', 'three people'], ['二(ふた)人(り)', 'two persons; two people; pair; couple'], ['一(ひと)人(り)', 'one person'], ['今(こ)年(とし)', 'this year'], ['一(いち)年(ねん)', 'one year; some time ago'], ['大(おと)人(な)', 'adult'], ['大(おお)きい', 'big; large; great'], ['十(じゅう)', 'ten'], ['十(とお)日(か)', 'tenth day of the month'], ['十(じゅう)一(いち)', 'eleven; 11']];
 
 let strokeOrders;
 
@@ -42,7 +42,7 @@ class KanjiCard {
   constructor() {
     this.x = windowWidth / 2;
     this.y = windowHeight / 2;
-    this.n = 0;
+    this.n = -1;
     this.color = color(0);
     
     this.textSize = 125;
